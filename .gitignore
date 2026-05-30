@@ -1,0 +1,19 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Sistema operativo
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*

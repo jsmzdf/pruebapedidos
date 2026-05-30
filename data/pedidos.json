@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1780184363656,
+    "numero": 1,
+    "items": [
+      {
+        "productoId": 3,
+        "cantidad": 1
+      }
+    ],
+    "observaciones": "si cebolla",
+    "mesa": "2",
+    "mesero": "Juan Pérez",
+    "fecha": "2026-05-30T23:39:23.656Z",
+    "estado": "cobrado",
+    "total": 12.99,
+    "horaEntrega": "2026-05-30T23:52:28.961Z",
+    "horaCobro": "2026-05-30T23:52:49.071Z",
+    "cajero": "Carlos López"
+  },
+  {
+    "id": 1780185070793,
+    "numero": 2,
+    "items": [
+      {
+        "productoId": 1,
+        "cantidad": 1
+      },
+      {
+        "productoId": 2,
+        "cantidad": 1
+      },
+      {
+        "productoId": 3,
+        "cantidad": 1
+      }
+    ],
+    "observaciones": "",
+    "mesa": "andrea",
+    "mesero": "Juan Pérez",
+    "fecha": "2026-05-30T23:51:10.793Z",
+    "estado": "pendiente",
+    "total": 31.97
+  }
+]

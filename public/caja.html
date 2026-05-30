@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caja - Facturación</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="nav-content">
+      <h1>💰 Caja - Facturación</h1>
+      <div class="user-info">
+        <span id="userName"></span>
+        <button onclick="logout()" class="btn btn-secondary">Cerrar Sesión</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="stats">
+      <div class="stat-card">
+        <h3>Pedidos Pendientes</h3>
+        <p class="stat-number" id="pedidosPendientes">0</p>
+      </div>
+      <div class="stat-card">
+        <h3>Pedidos Cobrados Hoy</h3>
+        <p class="stat-number" id="pedidosCobrados">0</p>
+      </div>
+      <div class="stat-card">
+        <h3>Total del Día</h3>
+        <p class="stat-number">$<span id="totalDia">0.00</span></p>
+      </div>
+    </div>
+    
+    <div class="pedidos-container" id="pedidosContainer">
+      <p class="empty-message">No hay pedidos</p>
+    </div>
+  </div>
+  
+  <script src="/js/caja.js"></script>
+</body>
+</html>

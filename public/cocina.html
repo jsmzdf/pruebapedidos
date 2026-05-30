@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocina - Pedidos Pendientes</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="nav-content">
+      <h1>👨‍🍳 Cocina - Pedidos</h1>
+      <div class="user-info">
+        <span id="userName"></span>
+        <button onclick="logout()" class="btn btn-secondary">Cerrar Sesión</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="stats">
+      <div class="stat-card">
+        <h3>Pedidos Pendientes</h3>
+        <p class="stat-number" id="pedidosPendientes">0</p>
+      </div>
+    </div>
+    
+    <div class="pedidos-container" id="pedidosContainer">
+      <p class="empty-message">No hay pedidos pendientes</p>
+    </div>
+  </div>
+  
+  <script src="/js/cocina.js"></script>
+</body>
+</html>

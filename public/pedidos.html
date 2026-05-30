@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos - Mesero</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="nav-content">
+      <h1>📝 Tomar Pedido</h1>
+      <div class="user-info">
+        <span id="userName"></span>
+        <button onclick="logout()" class="btn btn-secondary">Cerrar Sesión</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="pedido-form">
+      <div class="form-group">
+        <label for="mesa">Número de Mesa</label>
+        <input type="text" id="mesa" placeholder="Ej: Mesa 5" required>
+      </div>
+      
+      <h3>Productos del Menú</h3>
+      <div id="productosLista" class="productos-grid"></div>
+      
+      <h3>Resumen del Pedido</h3>
+      <div id="resumenPedido" class="resumen-pedido">
+        <p class="empty-message">No hay productos seleccionados</p>
+      </div>
+      
+      <div class="form-group">
+        <label for="observaciones">Observaciones</label>
+        <textarea id="observaciones" rows="4" placeholder="Agregar notas especiales del cliente..."></textarea>
+      </div>
+      
+      <div class="total-pedido">
+        <h3>Total: $<span id="totalPedido">0.00</span></h3>
+      </div>
+      
+      <button onclick="enviarPedido()" class="btn btn-primary btn-large">Enviar Pedido a Cocina</button>
+      
+      <div id="mensaje" class="mensaje" style="display: none;"></div>
+    </div>
+  </div>
+  
+  <script src="/js/pedidos.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "usuario": "mesero",
+    "password": "mesero123",
+    "rol": "mesero",
+    "nombre": "Juan Pérez"
+  },
+  {
+    "id": 2,
+    "usuario": "cocinero",
+    "password": "cocinero123",
+    "rol": "cocinero",
+    "nombre": "María García"
+  },
+  {
+    "id": 3,
+    "usuario": "cajero",
+    "password": "cajero123",
+    "rol": "cajero",
+    "nombre": "Carlos López"
+  }
+]

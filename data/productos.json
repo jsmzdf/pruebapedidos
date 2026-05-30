@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Hamburguesa Clásica",
+    "precio": 8.99,
+    "categoria": "Hamburguesas"
+  },
+  {
+    "id": 2,
+    "nombre": "Hamburguesa con Queso",
+    "precio": 9.99,
+    "categoria": "Hamburguesas"
+  },
+  {
+    "id": 3,
+    "nombre": "Pizza Margherita",
+    "precio": 12.99,
+    "categoria": "Pizzas"
+  },
+  {
+    "id": 4,
+    "nombre": "Pizza Pepperoni",
+    "precio": 14.99,
+    "categoria": "Pizzas"
+  },
+  {
+    "id": 5,
+    "nombre": "Ensalada César",
+    "precio": 7.99,
+    "categoria": "Ensaladas"
+  },
+  {
+    "id": 6,
+    "nombre": "Papas Fritas",
+    "precio": 3.99,
+    "categoria": "Acompañamientos"
+  },
+  {
+    "id": 7,
+    "nombre": "Refresco",
+    "precio": 2.50,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 8,
+    "nombre": "Jugo Natural",
+    "precio": 3.50,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 9,
+    "nombre": "Pasta Carbonara",
+    "precio": 11.99,
+    "categoria": "Pastas"
+  },
+  {
+    "id": 10,
+    "nombre": "Pollo a la Parrilla",
+    "precio": 13.99,
+    "categoria": "Carnes"
+  }
+]
