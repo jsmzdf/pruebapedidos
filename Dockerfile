@@ -14,10 +14,10 @@ RUN npm install --production
 COPY . .
 
 # Exponer el puerto
-EXPOSE 3001
+EXPOSE 3021
 
 # Variables de entorno por defecto
-ENV PORT=3001
+ENV PORT=3021
 ENV NODE_ENV=production
 
 # Comando para iniciar la aplicación

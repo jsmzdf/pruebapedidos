@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3021;
 
 // Middleware
 app.use(bodyParser.json());
@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 });
 
 // Iniciar servidor
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
   console.log(`📝 Sistema de Gestión de Pedidos para Restaurante`);
 });
