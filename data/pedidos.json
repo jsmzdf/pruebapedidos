@@ -4,16 +4,20 @@
     "numero": 1,
     "items": [
       {
-        "productoId": 3,
-        "cantidad": 1
+        "productoId": 1,
+        "cantidad": 2
+      },
+      {
+        "productoId": 18,
+        "cantidad": 2
       }
     ],
-    "observaciones": "si cebolla",
+    "observaciones": "Sin cebolla en los chorizos",
     "mesa": "2",
     "mesero": "Juan Pérez",
     "fecha": "2026-05-30T23:39:23.656Z",
     "estado": "cobrado",
-    "total": 12.99,
+    "total": 41000,
     "horaEntrega": "2026-05-30T23:52:28.961Z",
     "horaCobro": "2026-05-30T23:52:49.071Z",
     "cajero": "Carlos López"
@@ -23,23 +27,23 @@
     "numero": 2,
     "items": [
       {
-        "productoId": 1,
-        "cantidad": 1
-      },
-      {
-        "productoId": 2,
-        "cantidad": 1
-      },
-      {
         "productoId": 3,
+        "cantidad": 1
+      },
+      {
+        "productoId": 15,
+        "cantidad": 1
+      },
+      {
+        "productoId": 24,
         "cantidad": 1
       }
     ],
-    "observaciones": "",
-    "mesa": "andrea",
-    "mesero": "Juan Pérez",
+    "observaciones": "Todo bien cocido",
+    "mesa": "5",
+    "mesero": "Andrea López",
     "fecha": "2026-05-30T23:51:10.793Z",
     "estado": "pendiente",
-    "total": 31.97
+    "total": 43000
   }
 ]

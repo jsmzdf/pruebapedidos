@@ -1,62 +1,236 @@
 [
   {
     "id": 1,
-    "nombre": "Hamburguesa Clásica",
-    "precio": 8.99,
-    "categoria": "Hamburguesas"
+    "nombre": "Chorizo con Arepa",
+    "precio": 18000,
+    "categoria": "Chorizos"
   },
   {
     "id": 2,
-    "nombre": "Hamburguesa con Queso",
-    "precio": 9.99,
-    "categoria": "Hamburguesas"
+    "nombre": "Chorizo Solo",
+    "precio": 15000,
+    "categoria": "Chorizos"
   },
   {
     "id": 3,
-    "nombre": "Pizza Margherita",
-    "precio": 12.99,
-    "categoria": "Pizzas"
+    "nombre": "Arepa Choriquesuda",
+    "precio": 20000,
+    "categoria": "Arepas"
   },
   {
     "id": 4,
-    "nombre": "Pizza Pepperoni",
-    "precio": 14.99,
-    "categoria": "Pizzas"
+    "nombre": "Arepa Paisita",
+    "precio": 16000,
+    "categoria": "Arepas"
   },
   {
     "id": 5,
-    "nombre": "Ensalada César",
-    "precio": 7.99,
-    "categoria": "Ensaladas"
+    "nombre": "Arepa Queso Jamón",
+    "precio": 17000,
+    "categoria": "Arepas"
   },
   {
     "id": 6,
-    "nombre": "Papas Fritas",
-    "precio": 3.99,
-    "categoria": "Acompañamientos"
+    "nombre": "Arepa Pollo o Carne",
+    "precio": 19000,
+    "categoria": "Arepas"
   },
   {
     "id": 7,
-    "nombre": "Refresco",
-    "precio": 2.50,
-    "categoria": "Bebidas"
+    "nombre": "Arepa Mixta",
+    "precio": 22000,
+    "categoria": "Arepas"
   },
   {
     "id": 8,
-    "nombre": "Jugo Natural",
-    "precio": 3.50,
-    "categoria": "Bebidas"
+    "nombre": "Arepa Full",
+    "precio": 25000,
+    "categoria": "Arepas"
   },
   {
     "id": 9,
-    "nombre": "Pasta Carbonara",
-    "precio": 11.99,
-    "categoria": "Pastas"
+    "nombre": "Arepa Sola",
+    "precio": 15000,
+    "categoria": "Arepas"
   },
   {
     "id": 10,
-    "nombre": "Pollo a la Parrilla",
-    "precio": 13.99,
-    "categoria": "Carnes"
+    "nombre": "Empanada",
+    "precio": 15000,
+    "categoria": "Empanadas"
+  },
+  {
+    "id": 11,
+    "nombre": "Cono Sencillo",
+    "precio": 16000,
+    "categoria": "Conos"
+  },
+  {
+    "id": 12,
+    "nombre": "Cono Especial",
+    "precio": 20000,
+    "categoria": "Conos"
+  },
+  {
+    "id": 13,
+    "nombre": "Cono Paisa",
+    "precio": 18000,
+    "categoria": "Conos"
+  },
+  {
+    "id": 14,
+    "nombre": "Cono Recargado",
+    "precio": 24000,
+    "categoria": "Conos"
+  },
+  {
+    "id": 15,
+    "nombre": "Chori Perro",
+    "precio": 19000,
+    "categoria": "Chori Perros"
+  },
+  {
+    "id": 16,
+    "nombre": "Chori Perro Especial",
+    "precio": 23000,
+    "categoria": "Chori Perros"
+  },
+  {
+    "id": 17,
+    "nombre": "Quatro Personal",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 18,
+    "nombre": "Coca-Cola Personal",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 19,
+    "nombre": "Sprite Personal",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 20,
+    "nombre": "Manzana Personal",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 21,
+    "nombre": "Naranja Personal",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 22,
+    "nombre": "Colombiana Personal",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 23,
+    "nombre": "H2O Limón",
+    "precio": 3000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 24,
+    "nombre": "Coca-Cola 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 25,
+    "nombre": "Sprite 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 26,
+    "nombre": "Quatro 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 27,
+    "nombre": "Colombiana 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 28,
+    "nombre": "Manzana 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 29,
+    "nombre": "Uva 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 30,
+    "nombre": "Canada Dry 1.5L",
+    "precio": 4000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 31,
+    "nombre": "Bretaña",
+    "precio": 2000,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 32,
+    "nombre": "Corona Lata",
+    "precio": 4000,
+    "categoria": "Cervezas"
+  },
+  {
+    "id": 33,
+    "nombre": "Club Colombia",
+    "precio": 3500,
+    "categoria": "Cervezas"
+  },
+  {
+    "id": 34,
+    "nombre": "Águila Lata",
+    "precio": 3000,
+    "categoria": "Cervezas"
+  },
+  {
+    "id": 35,
+    "nombre": "Hit Mango",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 36,
+    "nombre": "Hit Tropical",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 37,
+    "nombre": "Hit Mora",
+    "precio": 2500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 38,
+    "nombre": "Cola y Pola",
+    "precio": 3500,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 39,
+    "nombre": "Agua Personal",
+    "precio": 2000,
+    "categoria": "Bebidas"
   }
 ]
