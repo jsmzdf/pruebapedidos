@@ -3,6 +3,9 @@ node_modules/
 *.log
 .DS_Store
 
+# Sesiones
+sessions/
+
 # Docker
 docker-compose.override.yml
 .dockerignore
