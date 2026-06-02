@@ -27,7 +27,19 @@ body {
   box-shadow: 0 20px 60px rgba(255, 184, 0, 0.3);
   border: 2px solid #FFB800;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  filter: drop-shadow(0 0 20px rgba(255, 184, 0, 0.5));
 }
 
 .login-box h1 {
@@ -91,12 +103,29 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+}
+
+.nav-logo {
+  flex-shrink: 0;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: auto;
+  filter: drop-shadow(0 0 10px rgba(255, 184, 0, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
 }
 
 .nav-content h1 {
   color: #FFB800;
   font-size: 1.5em;
   text-shadow: 0 0 10px rgba(255, 184, 0, 0.5);
+  flex-grow: 1;
 }
 
 .user-info {
